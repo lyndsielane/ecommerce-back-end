@@ -38,7 +38,7 @@ router.post("/", async (req, res) => {
   // create a new category
   try {
     const new_category = await Category.create({
-      category_id: req.body.category_id,
+      category_name: req.body.category_name,
     });
     res.status(200).json(new_category);
   } catch (err) {
@@ -70,7 +70,7 @@ router.delete("/:id", async (req, res) => {
   try {
     const delete_category = await Category.destroy({
       where: {
-        id: req.category.id,
+        id: req.params.id,
       },
     });
 
