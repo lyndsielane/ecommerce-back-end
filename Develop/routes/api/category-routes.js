@@ -59,10 +59,12 @@ router.put("/:id", async (req, res) => {
         id: req.params.id,
       },
     }
-  ).then((updatedCategory) => {
+  )
+    .then((updatedCategory) => {
       // Sends the updated book as a json response
       res.json(updatedCategory);
-  }).catch((err) => res.json(err));
+    })
+    .catch((err) => res.json(err));
 });
 
 router.delete("/:id", async (req, res) => {
