@@ -34,4 +34,6 @@ To start:
 nodemon server.js
 ```
 
-A walk through demonstration of the program is available [here]().
+A walk through demonstration of the program is available [here](https://drive.google.com/file/d/1fNEDBlpOrrBS8LnMFVSbPJ_Au1OTS1_I/view?usp=sharing).
+
+![Screenshot](https://github.com/lyndsielane/ecommerce-back-end/blob/main/Assets/Photo/Screen%20Shot%202021-07-27%20at%208.38.37%20PM.png?raw=true)
